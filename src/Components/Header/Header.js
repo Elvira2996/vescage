@@ -21,10 +21,7 @@ function Header() {
                 <li><Link to="#">Bags</Link></li>
                 <li><Link to="#">Woman</Link></li>
                 <li><Link to="#">Men</Link></li>
-                <li><Link to="#">Home & Lifestyle</Link></li>
                 <li><Link to="#">Children</Link></li>
-                <li><Link to="#">Jeans Couture</Link></li>
-                <li><Link to="#">Gifts</Link></li>
                 <li><Link to="#">Stories</Link></li>
             </ul>
         </nav>
