@@ -1,0 +1,9 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascript"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.useInlineCompletions": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+    "liveServer.settings.port": 5501
+}

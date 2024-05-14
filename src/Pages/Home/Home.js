@@ -1,11 +1,11 @@
 import './Home.css';
 
 function Home() {
-  return (
-    <>
-      Home
-    </>
-  );
+	return (
+		<>
+			
+		</>
+	);
 }
 
 export default Home;
