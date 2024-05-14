@@ -16,16 +16,16 @@ function Header() {
         <div className="logo">Versage</div>
         <nav>
             <ul className='header_menu flex'>
-                <li><a href="#">La Vacanza</a></li>
-                <li><a href="#">New In</a></li>
-                <li><a href="#">Bags</a></li>
-                <li><a href="#">Woman</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">Home & Lifestyle</a></li>
-                <li><a href="#">Children</a></li>
-                <li><a href="#">Jeans Couture</a></li>
-                <li><a href="#">Gifts</a></li>
-                <li><a href="#">Stories</a></li>
+                <li><Link to="#">La Vacanza</Link></li>
+                <li><Link to="#">New In</Link></li>
+                <li><Link to="#">Bags</Link></li>
+                <li><Link to="#">Woman</Link></li>
+                <li><Link to="#">Men</Link></li>
+                <li><Link to="#">Home & Lifestyle</Link></li>
+                <li><Link to="#">Children</Link></li>
+                <li><Link to="#">Jeans Couture</Link></li>
+                <li><Link to="#">Gifts</Link></li>
+                <li><Link to="#">Stories</Link></li>
             </ul>
         </nav>
         <div className="icons">
@@ -60,14 +60,14 @@ function Header() {
       <img src={Category1} alt="Image 1"/>
       <div className='overlay'>
       <h2>Title 1</h2>
-      <p><a href="#">Explore More</a></p>
+      <p><Link to="#">Explore More</Link></p>
     </div>
     </div>
     <div className="category-item">
       <img src={Category2} alt="Image 2"/>
       <div className='overlay'>
       <h2>Title 2</h2>
-      <p><a href="#">Explore More</a></p>
+      <p><Link to="#">Explore More</Link></p>
     </div>
     </div>
   </div>
@@ -77,19 +77,19 @@ function Header() {
   <div class="gallery-wrapper flex">
     <div class="gallery-item">
       <img src="image1.jpg" alt="Image 1"/>
-      <p class="gallery-txt"><a href="#">Explore More 1</a></p>
+      <p class="gallery-txt"><Link to="#">Explore More 1</Link></p>
     </div>
     <div class="gallery-item">
       <img src="image2.jpg" alt="Image 2"/>
-      <p class="gallery-txt"><a href="#">Explore More 2</a></p>
+      <p class="gallery-txt"><Link to="#">Explore More 2</Link></p>
     </div>
     <div class="gallery-item">
       <img src="image3.jpg" alt="Image 3"/>
-      <p class="gallery-txt"><a href="#">Explore More 3</a></p>
+      <p class="gallery-txt"><Link to="#">Explore More 3</Link></p>
     </div>
     <div class="gallery-item">
       <img src="image4.jpg" alt="Image 4"/>
-      <p class="gallery-txt"><a href="#">Explore More 4</a></p>
+      <p class="gallery-txt"><Link to="#">Explore More 4</Link></p>
     </div>
   </div>
   <div class="arrow-wrapper">
