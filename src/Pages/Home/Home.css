@@ -143,3 +143,64 @@
 .gallery-text a:hover {
     color: #666;
 }
+/* presentation */
+.presentation {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation_image {
+  width: 50%;
+  position: relative;
+}
+
+.presentation_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image_content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 30px;
+  color: white;
+  opacity: 1;
+ 
+  
+}
+
+.presentation_title {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+
+}
+
+.presentation_btn {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 7px 45px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.presentation_btn:hover {
+  background-color: black;
+  color: white;
+}
