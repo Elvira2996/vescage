@@ -3,6 +3,12 @@ import Category1 from '../../images/AH1.jpg'
 import Category2 from '../../images/CM1.jpg'
 import video from '../../images/video.mp4'
 import { Link } from 'react-router-dom'
+import Gallery1 from "../../images/gallery1.jpg"
+import Gallery2 from "../../images/gallery2.jpg"
+import Gallery3 from "../../images/gallery3.jpg"
+import Gallery4 from "../../images/gallery4.jpg"
+import Gallery5 from "../../images/gallery5.jpg"
+
 
 
 function Home() {
@@ -11,7 +17,7 @@ function Home() {
 		
 			<section className="about">
 				<div classNameNameName="video-container">
-					<video width="100%" height="auto" controls autoPlay muted> <source src={video} type="video/mp4" /></video>
+					<video width="100%" height="auto" controls autoPlay muted loop> <source src={video} type="video/mp4" /></video>
 					<h1 classNameNameName="video-title">La Vacanza 2024</h1>
 					<div classNameNameName="buttons">
 						<button classNameNameName="btn_about">Shop women's</button>
@@ -45,24 +51,24 @@ function Home() {
         <div className="gallery-right">
             <div className="gallery-images">
                 <div className="gallery-image">
-                    <img src="image1.jpg" alt="Image 1" />
-                    <p className="gallery-text"><a href="#">Link 1</a></p>
+                    <img src={Gallery1} alt="Image 1" />
+                    <p className="gallery-text"><a href="#">Athena</a></p>
                 </div>
 				<div className="gallery-image">
-            <img src="image2.jpg" alt="Image 2" />
-            <p className="gallery-text"><a href="#">Link 2</a></p>
+            <img src={Gallery2} alt="Image 2" />
+            <p className="gallery-text"><a href="#">Medusa Buckle</a></p>
         </div>
         <div className="gallery-image">
-            <img src="image3.jpg" alt="Image 3" />
-            <p className="gallery-text"><a href="#">Link 3</a></p>
+            <img src={Gallery3} alt="Image 3" />
+            <p className="gallery-text"><a href="#">Medusa '95</a></p>
         </div>
         <div className="gallery-image">
-            <img src="image4.jpg" alt="Image 4" />
-            <p className="gallery-text"><a href="#">Link 4</a></p>
+            <img src={Gallery4} alt="Image 4" />
+            <p className="gallery-text"><a href="#">Underwear And Beachwear</a></p>
         </div>
         <div className="gallery-image">
-            <img src="image5.jpg" alt="Image 5" />
-            <p className="gallery-text"><a href="#">Link 5</a></p>
+            <img src={Gallery5} alt="Image 5" />
+            <p className="gallery-text"><a href="#">Jewerly</a></p>
         </div>
             </div>
         </div>
