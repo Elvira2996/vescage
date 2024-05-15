@@ -1,6 +1,4 @@
 import './Home.css';
-import Category1 from '../../images/AH1.jpg'
-import Category2 from '../../images/CM1.jpg'
 import video from '../../images/video.mp4'
 import { Link } from 'react-router-dom'
 import Gallery1 from "../../images/gallery1.jpg"
@@ -10,6 +8,11 @@ import Gallery4 from "../../images/gallery4.jpg"
 import Gallery5 from "../../images/gallery5.jpg"
 import Present1 from "../../images/present1.jpg"
 import Present2 from "../../images/present2.jpg"
+import Shop1 from "../../images/shop1.jpg"
+import Shop2 from "../../images/shop2.jpg"
+import Shop3 from "../../images/shop3.jpg"
+import Shop4 from "../../images/shop4.jpg"
+import MainBag from "../../images/main_bag.jpg"
 
 
 
@@ -27,24 +30,7 @@ function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="category">
-				<div className="category-wrapper flex">
-					<div className="category-item">
-						<img src={Category1} alt="" />
-						<div className='overlay'>
-							<h2>Title 1</h2>
-							<p><Link to="#">Explore More</Link></p>
-						</div>
-					</div>
-					<div className="category-item">
-						<img src={Category2} alt="" />
-						<div className='overlay'>
-							<h2>Title 2</h2>
-							<p><Link to="#">Explore More</Link></p>
-						</div>
-					</div>
-				</div>
-			</section>
+			
 			<section className="gallery">
 				<div className="gallery-content flex">
 					<div className="gallery-left">
@@ -91,6 +77,36 @@ function Home() {
 						<Link to="#" className="presentation_btn">Shop now</Link>
 					</div>
 				</div>
+			</section>
+
+			<section className="shop-slide">
+				<div className="shop-card">
+					<img src={Shop1} alt="#" />
+
+				</div>
+				<div class="empty-space">
+					<Link to="#" className="slide_name">Barocco Sea Necklace</Link>
+					<Link to="#" className="slide_price">$450</Link>
+				</div>
+				<div className="shop-card">
+					<img src={Shop2} alt="#" />
+					<Link to="#" className="slide_name">Barocco Sea Knit Polo Cardigan</Link>
+					<Link to="#" className="slide_price">$1,490</Link>
+				</div>
+				<div className="shop-card">
+					<img src={Shop3} alt="#" />
+					<Link to="#" className="slide_name">Barocco Sea Knit Crop Top</Link>
+					<Link to="#" className="slide_price">$790</Link>
+				</div>
+				<div className="shop-card">
+					<img src={Shop4} alt="#" />
+					<Link to="#" className="slide_name">Barocco Sea Knit Mini Skirt</Link>
+					<Link to="#" className="slide_price">$750</Link>
+				</div>
+			</section>
+			<section class="main_bag">
+				<img src={MainBag} alt="Bag" />
+				<button class="main_btn">Shop the look</button>
 			</section>
 		</>
 	);

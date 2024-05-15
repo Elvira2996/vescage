@@ -1,6 +1,7 @@
 .Head{
     padding: 20px;
     align-items: flex-end;
+    position: relative;
 }
 .logo{
     font-size: 40px;
