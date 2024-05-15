@@ -1,1 +1,21 @@
+.Head{
+    padding: 20px;
+    align-items: flex-end;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Aktiv Grotesk Corp', arial, sans-serif;
+    text-transform: uppercase;
+}
+.header_menu li{
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+    text-transform: uppercase;
 
+}
+
+.header_menu li:last-child {
+  margin-right: 0;
+}

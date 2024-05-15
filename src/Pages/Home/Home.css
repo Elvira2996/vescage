@@ -96,4 +96,50 @@
     text-decoration: underline;
   }
   /* gallery */
-  
+  .gallery {
+    margin-top: 20px;
+}
+
+.gallery-content {
+    display: flex;
+}
+
+.gallery-left,
+.gallery-right {
+    flex: 1;
+}
+
+.gallery h2 {
+    text-transform: uppercase;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Creates circular images */
+}
+
+.gallery-text {
+    margin-top: 10px;
+}
+
+.gallery-text a {
+    text-decoration: none;
+    color: #333;
+}
+
+.gallery-text a:hover {
+    color: #666;
+}
