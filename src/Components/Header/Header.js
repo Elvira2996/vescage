@@ -12,7 +12,7 @@ function Header() {
       <div className="container">
         <div className="Head flex">
         
-        <div className="logo">Versage</div>
+        <div className="logo">Versace</div>
         <nav>
             <ul className='header_menu flex'>
                 <li><Link to="#">La Vacanza</Link></li>

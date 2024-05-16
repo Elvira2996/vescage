@@ -20,13 +20,13 @@ function Home() {
 	return (
 		<>
 
-			<section className="about">
-				<div classNameNameNameName="video-container">
+			<section className="main">
+				<div className="video-container">
 					<video width="100%" height="auto" controls autoPlay muted loop> <source src={video} type="video/mp4" /></video>
-					<h1 classNameNameNameName="video-title">La Vacanza 2024</h1>
-					<div classNameNameNameName="buttons">
-						<button classNameNameNameName="btn_about">Shop women's</button>
-						<button classNameNameNameName="btn_about">Discover More</button>
+					<h1 className="video-title">La Vacanza 2024</h1>
+					<div className="buttons">
+						<button className="btn_main">Shop women's</button>
+						<button className="btn_main">Discover More</button>
 					</div>
 				</div>
 			</section>

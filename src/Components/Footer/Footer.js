@@ -54,6 +54,14 @@ function Footer() {
         <li><Link to="#">Accessibility</Link></li>
       </ul>
     </div>
+    <div className='footer_icons'>
+      <Link to="" className='ins_icons'></Link>
+      <Link to="" className='fc_icons'></Link>
+      <Link to="" className='tw_icons'></Link>
+      <Link to="" className='pintr_icons'></Link>
+      <Link to="" className='youtube_icons'></Link>
+      <Link to="" className='ld_icons'></Link>
+    </div>
   </div>
   </footer>
 
