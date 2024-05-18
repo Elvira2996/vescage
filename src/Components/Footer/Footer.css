@@ -38,3 +38,39 @@
 .footer-list a:hover {
   text-decoration: underline;
 }
+
+.ins_icons,
+.fc_icons,
+.tw_icons,
+.pintr_icons,
+.youtube_icons,
+.ld_icons{
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.ins_icons{
+  background: url(../../images/icons/instagram.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+ 
+
+
+.fc_icons{
+  background: url(../../images/icons/facebook.svg);
+ 
+}
+.tw_icons{
+  background: url(../../images/icons/twitter-2.svg) ;
+ 
+}
+.pintr_icons{
+  background: url(../../images/icons/pinterest.svg);
+  
+}
+.youtube_icons{
+  background: url(../../images/icons/youtube.svg);
+}

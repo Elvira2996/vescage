@@ -54,7 +54,7 @@ function Footer() {
         <li><Link to="#">Accessibility</Link></li>
       </ul>
     </div>
-    <div className='footer_icons'>
+    <div className='footer_icons flex'>
       <Link to="" className='ins_icons'></Link>
       <Link to="" className='fc_icons'></Link>
       <Link to="" className='tw_icons'></Link>
