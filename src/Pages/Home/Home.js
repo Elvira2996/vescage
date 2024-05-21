@@ -13,7 +13,10 @@ import Shop2 from "../../images/shop2.jpg"
 import Shop3 from "../../images/shop3.jpg"
 import Shop4 from "../../images/shop4.jpg"
 import MainBag from "../../images/main_bag.jpg"
-
+import recentImage1 from '..//..//images/recent1.jpg'
+import recentImage2 from '..//..//images/recent2.jpg'
+import recentImage3 from '..//..//images/recent3.jpg'
+import recentImage4 from '..//..//images/recent4.jpg'
 
 
 
@@ -110,6 +113,45 @@ function Home() {
 				<img src={MainBag} alt="Bag" />
 				<button class="main_btn">Shop the look</button>
 			</section>
+			
+			<section className="recent">
+        <div className="recent_left">
+          <h2 className="recent_title">RECENT STORIES</h2>
+          <div className="recent_icons">
+            <div className="left_icon"></div>
+            <div className="dots"></div>
+            <div className="dots"></div>
+            <div className="dots"></div>
+            <div className="dots"></div>
+            <div className="dots"></div>
+            <div className="dots"></div>
+            <div className="right_icon"></div>
+          </div>
+        </div>
+        <div className="recent_right flex">
+          <div className="image_container">
+            <img src={recentImage1} alt="#" />
+            <p className="recent_txt">TEXT 1</p>
+            <Link to="#" className="read_more">Read More</Link>
+          </div>
+          <div className="image_container">
+            <img src={recentImage2} alt="#" />
+            <p className="recent_txt">TEXT 2</p>
+            <Link to="#" className="read_more">Read More</Link>
+          </div>
+          <div className="image_container">
+            <img src={recentImage3} alt="Image 2" />
+            <p className="recent_txt">TEXT 2</p>
+            <Link to="#" className="read_more">Read More</Link>
+          </div>
+          <div className="image_container">
+            <img src={recentImage4} alt="#" />
+            <p className="recent_txt">TEXT 2</p>
+            <Link to="#" className="read_more">Read More</Link>
+          </div>
+
+        </div>
+      </section>
 			
 		</>
 	);

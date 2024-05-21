@@ -52,7 +52,7 @@ function Header() {
               <Button>Sign In</Button>
             </div>
             <Link to="/cart" className="Cart_ic">
-              <span>10</span>
+              <span></span>
             </Link>
           </div>
         </div>
