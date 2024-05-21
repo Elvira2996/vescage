@@ -16,6 +16,8 @@ import MainBag from "../../images/main_bag.jpg"
 
 
 
+
+
 function Home() {
 	return (
 		<>
@@ -108,6 +110,7 @@ function Home() {
 				<img src={MainBag} alt="Bag" />
 				<button class="main_btn">Shop the look</button>
 			</section>
+			
 		</>
 	);
 }
