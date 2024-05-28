@@ -13,13 +13,49 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
+import { createContext, useEffect, useState } from 'react';
+import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from './firebase';
+import CategoryList from './Components/CategoryList/CategoryList';
+
+export const AppContext = createContext({
+  categories:[],
+  products:[],
+  orders:[],
+  cart:{},
+  setCart:() =>{ },
+  user: null,
+});
 
 
 function App() {
+  const [categories, setCategories] = useState([]);
+  const [products, setProducts] = useState([]);
+  const [orders, setOrders] = useState([]);
+  const [cart, setCart] = useState(() => {
+    return JSON.parse(localStorage.getItem("cart")) || {}
+  });
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart)); // Исправленная строка
+  }, [cart]);
+  useEffect(() => {
+    onCategoriesLoad(setCategories);
+    onProductsLoad(setProducts);
+    onOrdersLoad(setOrders);
+    onAuthChange(user => {
+      if(user) {
+        user.isAdmin = user && user.email === "alikova@iksu.kg";
+      }
+      setUser(user);
+    })
+  },[]);
   return (
     <div className='App'>
+      <AppContext.Provider value={{ categories, cart, user, orders }} >
+
       <Router>
         <Header />
+        <CategoryList />
         <main>
           <div className="container">
             <Routes>
@@ -31,13 +67,14 @@ function App() {
               <Route path="cart" element={<Cart />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
+            
           </div>
         </main>
         <Footer />
       </Router>
+      </AppContext.Provider>
     </div>
   );
 }
 
 export default App;
-

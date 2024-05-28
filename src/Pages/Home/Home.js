@@ -8,20 +8,19 @@ import Gallery4 from "../../images/gallery4.jpg"
 import Gallery5 from "../../images/gallery5.jpg"
 import Present1 from "../../images/present1.jpg"
 import Present2 from "../../images/present2.jpg"
-import Shop1 from "../../images/shop1.jpg"
-import Shop2 from "../../images/shop2.jpg"
-import Shop3 from "../../images/shop3.jpg"
-import Shop4 from "../../images/shop4.jpg"
+
 import MainBag from "../../images/main_bag.jpg"
 import recentImage1 from '..//..//images/recent1.jpg'
 import recentImage2 from '..//..//images/recent2.jpg'
 import recentImage3 from '..//..//images/recent3.jpg'
 import recentImage4 from '..//..//images/recent4.jpg'
+import ShopSlide from '../../Components/ShopSlide/ShopSlide';
 
 
 
 
 function Home() {
+
 	return (
 		<>
 
@@ -35,7 +34,7 @@ function Home() {
 					</div>
 				</div>
 			</section>
-			
+
 			<section className="gallery">
 				<div className="gallery-content flex">
 					<div className="gallery-left">
@@ -84,75 +83,51 @@ function Home() {
 				</div>
 			</section>
 
-			<section className="shop-slide">
-				<div className="shop-card">
-					<img src={Shop1} alt="#" />
-
-				</div>
-				<div class="empty-space">
-					<Link to="#" className="slide_name">Barocco Sea Necklace</Link>
-					<Link to="#" className="slide_price">$450</Link>
-				</div>
-				<div className="shop-card">
-					<img src={Shop2} alt="#" />
-					<Link to="#" className="slide_name">Barocco Sea Knit Polo Cardigan</Link>
-					<Link to="#" className="slide_price">$1,490</Link>
-				</div>
-				<div className="shop-card">
-					<img src={Shop3} alt="#" />
-					<Link to="#" className="slide_name">Barocco Sea Knit Crop Top</Link>
-					<Link to="#" className="slide_price">$790</Link>
-				</div>
-				<div className="shop-card">
-					<img src={Shop4} alt="#" />
-					<Link to="#" className="slide_name">Barocco Sea Knit Mini Skirt</Link>
-					<Link to="#" className="slide_price">$750</Link>
-				</div>
-			</section>
+			<ShopSlide />
 			<section class="main_bag">
 				<img src={MainBag} alt="Bag" />
 				<button class="main_btn">Shop the look</button>
 			</section>
-			
-			<section className="recent">
-        <div className="recent_left">
-          <h2 className="recent_title">RECENT STORIES</h2>
-          <div className="recent_icons">
-            <div className="left_icon"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="right_icon"></div>
-          </div>
-        </div>
-        <div className="recent_right flex">
-          <div className="image_container">
-            <img src={recentImage1} alt="#" />
-            <p className="recent_txt">TEXT 1</p>
-            <Link to="#" className="read_more">Read More</Link>
-          </div>
-          <div className="image_container">
-            <img src={recentImage2} alt="#" />
-            <p className="recent_txt">TEXT 2</p>
-            <Link to="#" className="read_more">Read More</Link>
-          </div>
-          <div className="image_container">
-            <img src={recentImage3} alt="Image 2" />
-            <p className="recent_txt">TEXT 2</p>
-            <Link to="#" className="read_more">Read More</Link>
-          </div>
-          <div className="image_container">
-            <img src={recentImage4} alt="#" />
-            <p className="recent_txt">TEXT 2</p>
-            <Link to="#" className="read_more">Read More</Link>
-          </div>
 
-        </div>
-      </section>
-			
+			<section className="recent">
+				<div className="recent_left">
+					<h2 className="recent_title">RECENT STORIES</h2>
+					<div className="recent_icons">
+						<div className="left_icon"></div>
+						<div className="dots"></div>
+						<div className="dots"></div>
+						<div className="dots"></div>
+						<div className="dots"></div>
+						<div className="dots"></div>
+						<div className="dots"></div>
+						<div className="right_icon"></div>
+					</div>
+				</div>
+				<div className="recent_right flex">
+					<div className="image_container">
+						<img src={recentImage1} alt="#" />
+						<p className="recent_txt">TEXT 1</p>
+						<Link to="#" className="read_more">Read More</Link>
+					</div>
+					<div className="image_container">
+						<img src={recentImage2} alt="#" />
+						<p className="recent_txt">TEXT 2</p>
+						<Link to="#" className="read_more">Read More</Link>
+					</div>
+					<div className="image_container">
+						<img src={recentImage3} alt="Image 2" />
+						<p className="recent_txt">TEXT 2</p>
+						<Link to="#" className="read_more">Read More</Link>
+					</div>
+					<div className="image_container">
+						<img src={recentImage4} alt="#" />
+						<p className="recent_txt">TEXT 2</p>
+						<Link to="#" className="read_more">Read More</Link>
+					</div>
+
+				</div>
+			</section>
+
 		</>
 	);
 }
