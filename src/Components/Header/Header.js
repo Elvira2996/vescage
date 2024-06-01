@@ -3,6 +3,8 @@ import './Header.css';
 import Menu from '../Menu/Menu';
 import Button from '../Button/Button';
 import { Link } from 'react-router-dom';
+import CategoryList from '../CategoryList/CategoryList';
+
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +33,9 @@ function Header() {
           <div className="Head flex">
             <div className="logo">Versace</div>
             <nav>
-              <ul className='header_menu flex'>
+              <CategoryList />
+              
+              {/* <ul className='header_menu flex'>
                 <li><Link to="#">La Vacanza</Link></li>
                 <li><Link to="#">New In</Link></li>
                 <li><Link to="#">Bags</Link></li>
@@ -39,7 +43,7 @@ function Header() {
                 <li><Link to="#">Men</Link></li>
                 <li><Link to="#">Children</Link></li>
                 <li><Link to="#">Stories</Link></li>
-              </ul>
+              </ul> */}
             </nav>
             <div className="icons">
               <span className='ic_menu'></span>
