@@ -28,6 +28,7 @@ function Header() {
 
   return (
     <>
+    
       <header className={`Header ${isScrolled ? 'fixed' : ''}`}>
         <div className="container">
           <div className="Head flex">
@@ -60,7 +61,9 @@ function Header() {
             </Link>
           </div>
         </div>
+        
       </header>
+      
     </>
   );
 }

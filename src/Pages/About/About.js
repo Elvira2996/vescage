@@ -86,7 +86,7 @@ function About() {
               <Link to=""><div className='card_img'>
                 <img src={Story1} alt="" />
               </div></Link>
-              
+
               <div className='card_info'>
                 <span>
                   NEWS & PROJECTS</span>
@@ -504,10 +504,10 @@ function About() {
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>FALL-WINTER 2023 CHILDREN'S</h2>
                 <p className='catd_desc'>The Fall-Winter 2023 Children’s collection takes a series of seasonal Women's and Men's styles and adapts them for children as mini-me pieces.
-Dv One Automatic Gent</p>
+                  Dv One Automatic Gent</p>
               </div>
             </div>
             <div className='card'>
@@ -516,10 +516,10 @@ Dv One Automatic Gent</p>
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>DV ONE AUTOMATIC GENT</h2>
                 <p className='catd_desc'>The DV One Gent timepiece is introduced in a men's aesthetic finish for the first time.
-Versace Neo Nylon</p>
+                  Versace Neo Nylon</p>
               </div>
             </div>
             <div className='card'>
@@ -528,12 +528,12 @@ Versace Neo Nylon</p>
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>VERSACE NEO NYLON</h2>
                 <p className='catd_desc'>
-The new line of bags is crafted from ECONYL® regenerated nylon. The Pre-Fall 2023 collection introduces five new styles, each detailed with the House Greca signifier as buckles and strap fastenings in silver hardware.
-Versace Jeans Couture Fall-Winter 2023
-</p>
+                  The new line of bags is crafted from ECONYL® regenerated nylon. The Pre-Fall 2023 collection introduces five new styles, each detailed with the House Greca signifier as buckles and strap fastenings in silver hardware.
+                  Versace Jeans Couture Fall-Winter 2023
+                </p>
               </div>
             </div>
             <div className='card'>
@@ -542,11 +542,11 @@ Versace Jeans Couture Fall-Winter 2023
               </div>
               <div className='card_info'>
                 <span>
-                LOOKBOOKS</span>
+                  LOOKBOOKS</span>
                 <h2 className='card_titl'>VERSACE JEANS COUTURE FALL-WINTER 2023</h2>
                 <p className='catd_desc'>The Fall-Winter 2023 collection draws inspiration from the print-overloaded styles of British alternate fashion label "BodyMap," comprising a selection of black-and-white prints, biker-inspired styles, and flared volumes for both women and men.
-#versacejeanscouture
-Versace X Elton John AIDS Foundation</p>
+                  #versacejeanscouture
+                  Versace X Elton John AIDS Foundation</p>
               </div>
             </div>
             <div className='card'>
@@ -555,7 +555,7 @@ Versace X Elton John AIDS Foundation</p>
               </div>
               <div className='card_info'>
                 <span>
-                NEWS & PROJECTS</span>
+                  NEWS & PROJECTS</span>
                 <h2 className='card_titl'>VERSACE X ELTON JOHN AIDS FOUNDATION</h2>
                 <p className='catd_desc'>Versace is pleased to donate 15% of sales from the Greca Goddess mini bag in powder blush pink to the Elton John AIDS Foundation in June to celebrate Pride Month.</p>
               </div>
@@ -566,11 +566,11 @@ Versace X Elton John AIDS Foundation</p>
               </div>
               <div className='card_info'>
                 <span>
-                FASHION SHOWS</span>
+                  FASHION SHOWS</span>
                 <h2 className='card_titl'>LA VACANZA 2023</h2>
                 <p className='catd_desc'>Donatella Versace and Dua Lipa present their co-designed women's collection at Versace's first see-now-buy-now fashion show on the French Riviera.
-Dua Lipa for La Vacanza
-</p>
+                  Dua Lipa for La Vacanza
+                </p>
               </div>
             </div>
             <div className='card'>
@@ -579,10 +579,10 @@ Dua Lipa for La Vacanza
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>DUA LIPA FOR LA VACANZA</h2>
                 <p className='catd_desc'>The collection is Donatella and Dua's shared vision of an absolute modern elegance for “La Vacanza”, the Italian for “vacation”, and encompasses the full Versace lifestyle; from perfectly cut tailoring and evening gowns, to bikini and terry cotton beachwear.
-Versace at the Met Gala 2023</p>
+                  Versace at the Met Gala 2023</p>
               </div>
             </div>
             <div className='card'>
@@ -594,7 +594,7 @@ Versace at the Met Gala 2023</p>
                   NEWS & PROJECTS</span>
                 <h2 className='card_titl'>VERSACE AT THE MET GALA 2023</h2>
                 <p className='catd_desc'>The Met Gala 2023, entitled, "Karl Lagerfeld: A Line of Beauty,” honors the work and life of designer Karl Lagerfeld, and sees Donatella Versace present a selection of custom Atelier Versace designs which bring together signatures of both Versace and Lagerfeld from across his career.
-#metgala</p>
+                  #metgala</p>
               </div>
             </div>
             <div className='card'>
@@ -614,10 +614,10 @@ Versace at the Met Gala 2023</p>
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>SPRING-SUMMER 2023 DENIM</h2>
                 <p className='catd_desc'>For its Spring-Summer 2023 Denim campaign, Versace Jeans Couture turns its lens to New York City to profile burgeoning talent—starring musician Aaron Maine of Porches and 20-year-old multi-hyphenate—singer-songwriter, rapper, DJ, producer, and model - Talia Goddess.
-#versacejeanscouture</p>
+                  #versacejeanscouture</p>
               </div>
             </div>
             <div className='card'>
@@ -626,10 +626,10 @@ Versace at the Met Gala 2023</p>
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>VERSACE EYEWEAR SPRING-SUMMER 2023</h2>
                 <p className='catd_desc'>The Spring-Summer 2023 Eyewear collection combines a series of sun and optical frames, each detailed with signature House motifs, including the Medusa, Greca, and Medusa Biggie.
-Versace Home At Salone Del Mobile</p>
+                  Versace Home At Salone Del Mobile</p>
               </div>
             </div>
             <div className='card'>
@@ -641,10 +641,10 @@ Versace Home At Salone Del Mobile</p>
                   NEWS & PROJECTS</span>
                 <h2 className='card_titl'>VERSACE HOME AT SALONE DEL MOBILE</h2>
                 <p className='catd_desc'>
-The Versace Home collection will be presented at Fiera Milano, Rho, Hall 7, Stand E20 from April 18th to 23rd, 9:30AM - 6:30PM.
-#versacehome
-30 Years Rosenthal Meets Versace
-</p>
+                  The Versace Home collection will be presented at Fiera Milano, Rho, Hall 7, Stand E20 from April 18th to 23rd, 9:30AM - 6:30PM.
+                  #versacehome
+                  30 Years Rosenthal Meets Versace
+                </p>
               </div>
             </div>
             <div className='card'>
@@ -656,8 +656,8 @@ The Versace Home collection will be presented at Fiera Milano, Rho, Hall 7, Stan
                   NEWS & PROJECTS</span>
                 <h2 className='card_titl'>30 YEARS ROSENTHAL MEETS VERSACE</h2>
                 <p className='catd_desc'>Introducing a special limited collection of Rosenthal Meets Versace mugs, in celebration of a 30 year collaboration between the two creative Houses in 2023.
-#versacehome
-Versace Children's Eyewear 2023</p>
+                  #versacehome
+                  Versace Children's Eyewear 2023</p>
               </div>
             </div>
             <div className='card'>
@@ -666,10 +666,10 @@ Versace Children's Eyewear 2023</p>
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>VERSACE CHILDREN'S EYEWEAR 2023</h2>
                 <p className='catd_desc'>Introducing the new Versace Children's Eyewear collection, featuring iconic Versace designs in mini-me versions.
-Versace Watches Spring-Summer 2023.</p>
+                  Versace Watches Spring-Summer 2023.</p>
               </div>
             </div>
             <div className='card'>
@@ -678,17 +678,31 @@ Versace Watches Spring-Summer 2023.</p>
               </div>
               <div className='card_info'>
                 <span>
-                ADVERTISING CAMPAIGNS</span>
+                  ADVERTISING CAMPAIGNS</span>
                 <h2 className='card_titl'>VERSACE WATCHES SPRING-SUMMER 2023</h2>
                 <p className='catd_desc'>Modernity meets innovative design in the Versace Spring-Summer 2023 watch campaign, combining a collection of classic Versace designs and seven new styles for the seasonal collection.</p>
               </div>
             </div>
 
           </div>
+          <section className='enter'>
+            <div className='container'>
+              <h2 className='enter_title'>ENTER THE WORLD OF VERSACE</h2>
+              <p className='enter_txt'>Stay up to date on events, collections and exclusive news
+              </p>
+              <form className='enter_mail'>
+             
+                <button className='enter_btn'>
+                <input className='form_input' type="email" placeholder='Enter your email address' />
+                  <div className='enter_ic'></div>
+                </button>
+              </form>
+            </div>
+          </section>
         </div>
-      
-    </section >
-      
+
+      </section >
+
     </>
   );
 }
