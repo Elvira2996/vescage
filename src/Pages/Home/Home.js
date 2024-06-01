@@ -15,6 +15,7 @@ import recentImage2 from '..//..//images/recent2.jpg'
 import recentImage3 from '..//..//images/recent3.jpg'
 import recentImage4 from '..//..//images/recent4.jpg'
 import ShopSlide from '../../Components/ShopSlide/ShopSlide';
+import FooterMail from '../../Components/FooterMail/FooterMail';
 
 
 
@@ -56,7 +57,7 @@ function Home() {
 							</div>
 							<div className="gallery-image">
 								<img src={Gallery4} alt="#" />
-								<p className="gallery-text"> <Link to="#">Underwear And Beachwear</Link></p>
+								<p className="gallery-text"> <Link to="#">Underwear And <br/> Beachwear</Link></p>
 							</div>
 							<div className="gallery-image">
 								<img src={Gallery5} alt="#" />
@@ -115,7 +116,7 @@ function Home() {
 						<Link to="#" className="read_more">Read More</Link>
 					</div>
 					<div className="image_container">
-						<img src={recentImage3} alt="Image 2" />
+						<img src={recentImage3} alt="#" />
 						<p className="recent_txt">TEXT 2</p>
 						<Link to="#" className="read_more">Read More</Link>
 					</div>
@@ -127,6 +128,7 @@ function Home() {
 
 				</div>
 			</section>
+			<FooterMail />
 
 		</>
 	);
